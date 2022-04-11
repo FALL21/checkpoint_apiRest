@@ -1,16 +1,20 @@
 {
-  "name": "checkpoint_api_rest",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "checkpoint-api-rest",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.0",
+    "env": "^0.0.2",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "install": "^0.13.0",
+    "jade": "~1.11.0",
     "mongodb": "^4.5.0",
-    "mongoose": "^6.2.10",
-    "validator": "^13.7.0"
+    "morgan": "~1.9.1"
   }
 }
